@@ -18,6 +18,8 @@ if ([obj isKindOfClass:NSArray.class]) {
 }
 ```
 
+To:
+
 ```objc++
 NSString *result = Object::Getter(obj)[idx][@"key"].value<NSString>(@"defalut string");
 ```
